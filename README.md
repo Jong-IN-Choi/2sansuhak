@@ -5,17 +5,12 @@
 
 
 ## 설치
-[https://github.com/Jong-IN-Choi/2sansuhak] 에서 py 파일을 다우 받은 뒤에, COLAB을 통해서 설치한다. 
-
-### 요구사항
-python:
+[https://github.com/Jong-IN-Choi/2sansuhak] 에서 py 파일을 다운 받은 뒤에, COLAB을 통해서 설치한다. 
+터미널을 통해, py확장자의 파일을 실행시에는 R = {(1, 1), (1, 3), (2, 2), (3, 3),(3, 1), (3, 4), (4, 4), (4, 3)} (동치관계가 아님)이 기본으로 세팅되어있으므로 동치가 아니라고 뜬다.
 ```python
-%cd /contet/
+! python3 equiv.py
 ```
 
-```python
-! python equiv.py
-```
 
 
 ## 게임 하는 법
