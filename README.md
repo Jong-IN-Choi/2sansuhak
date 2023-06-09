@@ -5,7 +5,7 @@
 
 
 ## 설치
-https://github.com/Jong-IN-Choi/test 에서 py 파일을 다우 받은 뒤에, COLAB을 통해서 설치한다. 
+[https://github.com/Jong-IN-Choi/2sansuhak] 에서 py 파일을 다우 받은 뒤에, COLAB을 통해서 설치한다. 
 
 ### 요구사항
 python:
@@ -14,7 +14,7 @@ python:
 ```
 
 ```python
-! python main.py
+! python equiv.py
 ```
 
 
@@ -22,4 +22,4 @@ python:
 1. R을 집합의 형태로 적는다. 
   ex) R = {(1, 1), (1, 3), (2, 2), (3, 3), (3, 1), (3, 4), (4, 4), (4, 3)}
 2. check_equivalance(R)을 입력하여, 동치관게인지 확인한다.
-3. True이면 동치관계, False이며 동치관계가 아니다.
+3. 반사관계, 대칭관계, 추이관계를 확인하고 싶다면 각각 check_reflexive(R), check_symmetric(R), check_transitive(R)을 통해서 확인한다.
